@@ -30,7 +30,7 @@ function historyContElm(urlStr){
 						new createElm("div",{
 							attr:{class:"main-img-cont"},
 							childs:[
-								new createElm("img",{attr:{src:"../../../../icons/math.png"}}),
+								new createElm("img",{attr:{src:"../icons/math.png"}}),
 							]
 						}),
 						new createElm("div",{
@@ -43,7 +43,7 @@ function historyContElm(urlStr){
 						new createElm("div",{
 							attr:{class:"main-load-img-cont"},
 							childs:[
-								new createElm("img",{attr:{src:"../../../../icons/arrow-right.png"}}),
+								new createElm("img",{attr:{src:"../icons/arrow-right.png"}}),
 							]
 						}),
 					],
@@ -51,8 +51,8 @@ function historyContElm(urlStr){
 				new createElm("div",{
 					attr:{class:"lower-item-cont"},
 					childs:[
-						new createElm("img",{attr:{src:"../../../../icons/trash.png"}}),						
-						//new createElm("img",{attr:{src:"../../../../icons/arrows-maximize.png"}}),
+						new createElm("img",{attr:{src:"../icons/trash.png"}}),						
+						//new createElm("img",{attr:{src:"../icons/arrows-maximize.png"}}),
 					],
 				}),
 			]
@@ -78,7 +78,7 @@ function historyWindow(){
 		],
 	});
 	this.title = new createElm("label",{text:"Matrix List:",attr:{class:"list-cont-title"},childs:[
-		new createElm("img",{attr:{class:"delete_ic",src:"../../../../icons/trash.png"}}),
+		new createElm("img",{attr:{class:"delete_ic",src:"../icons/trash.png"}}),
 	]});
 	this.listCont = new createElm("div",{attr:{class:"list-sub-cont"},
 		childs:[],

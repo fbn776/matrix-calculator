@@ -80,7 +80,7 @@ function createCalcElms(){
 			elm.appendChild(main);
 			main.innerHTML = `
 				<name>${a.name}</name>
-				<img src="../../../icons/chevron-right.png">
+				<img src="icons/chevron-right.png">
 			`;
 		};
 		

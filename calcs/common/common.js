@@ -84,9 +84,9 @@ function inputMatrixCont(to,obj){
 	this.edit = new createElm("div",{
 		attr:{class:"edit"},
 		childs:[
-			new createElm("img",{attr:{src:"../../../../icons/edit.png"}}),
-			new createElm("img",{attr:{src:"../../../../icons/trash.png"}}),		
-			new createElm("img",{attr:{src:"../../../../icons/bookmark.png"}}),
+			new createElm("img",{attr:{src:"../icons/edit.png"}}),
+			new createElm("img",{attr:{src:"../icons/trash.png"}}),		
+			new createElm("img",{attr:{src:"../icons/bookmark.png"}}),
 		],
 	});
 	this.calcCont.addChild([this.btn,this.display,this.edit]);
@@ -248,9 +248,9 @@ function resultMatrixCont(to){
 	this.edit = new createElm("div",{
 		attr:{class:"edit"},
 		childs:[
-			new createElm("img",{attr:{src:"../../../../icons/share.png"}}),
-			new createElm("img",{attr:{src:"../../../../icons/trash.png"}}),		
-			new createElm("img",{attr:{src:"../../../../icons/bookmark.png"}}),		
+			new createElm("img",{attr:{src:"../icons/share.png"}}),
+			new createElm("img",{attr:{src:"../icons/trash.png"}}),		
+			new createElm("img",{attr:{src:"../icons/bookmark.png"}}),		
 		],
 	});
 	this.calcCont.addChild([this.display,this.edit]);
@@ -396,8 +396,8 @@ function inputScalarCont(to,obj){
 	this.edit = new createElm("div",{
 		attr:{class:"edit"},
 		childs:[
-			new createElm("img",{attr:{src:"../../../../icons/edit.png"}}),
-			new createElm("img",{attr:{src:"../../../../icons/trash.png"}}),
+			new createElm("img",{attr:{src:"../icons/edit.png"}}),
+			new createElm("img",{attr:{src:"../icons/trash.png"}}),
 		],
 	});
 	this.edit.elm.style.width = "65px";
